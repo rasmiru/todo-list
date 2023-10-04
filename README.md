@@ -1,6 +1,6 @@
 # Todo List React JS
 
-Welcome to the Todo List React JS project! This web application allows you to search, browse and filter various products.
+Welcome to the Todo List React JS project! This web application allows you to search and manage various todo items.
 
 ## Todos with Checkbox
 ![Todos with checkbox](./images/Screenshot1.png)
