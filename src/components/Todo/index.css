@@ -1,0 +1,38 @@
+.todo-item {
+    background-color: #f8f8f8;
+    /* Set the background color of todo items */
+    padding: 10px;
+    /* Add padding around the todo item */
+    border-radius: 5px;
+    /* Apply rounded corners to the todo item */
+    margin-bottom: 5px;
+    /* Add margin at the bottom of each todo item */
+}
+
+.urgent {
+    background-color: orange;
+    /* Set the background color of urgent todo items */
+    color: white;
+    /* Set the text color of urgent todo items to white */
+}
+
+.urgent-label {
+    background-color: orange;
+    /* Set the background color of the urgent label */
+    color: white;
+    /* Set the text color of the urgent label to white */
+    padding: 2px 6px;
+    /* Add padding to the urgent label */
+    border-radius: 3px;
+    /* Apply rounded corners to the urgent label */
+    margin-left: 5px;
+    /* Add margin to the left of the urgent label */
+    font-size: 12px;
+    /* Set the font size of the urgent label */
+    float: right;
+    /* Float the urgent label to the right */
+}
+
+.complete {
+    text-decoration: line-through;
+}

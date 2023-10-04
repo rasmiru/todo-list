@@ -1,0 +1,167 @@
+.todo-list-container {
+    max-width: 600px;
+    margin: 50px auto 10px;
+    /* Center the container horizontally with 50px top margin and 10px bottom margin */
+    padding: 20px;
+    /* Add 20px padding around the container */
+    border: 1px solid #ccc;
+    /* Add a 1px solid border with color #ccc */
+    border-radius: 5px;
+    /* Apply a 5px border radius for rounded corners */
+}
+
+h1 {
+    text-align: center;
+    /* Center align the text inside the <h1> element */
+}
+
+.input-container {
+    display: flex;
+    /* Use flexbox layout for the container */
+    margin-bottom: 20px;
+    /* Add 20px bottom margin to create space between input and buttons */
+}
+
+input {
+    flex: 1;
+    /* Allow the input field to grow and occupy the remaining space */
+    padding: 8px;
+    /* Add 8px padding to the input field */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* Add a 1px solid border with color #ccc */
+    border-radius: 5px;
+    /* Apply a 5px border radius for rounded corners */
+    margin-right: 10px;
+    /* Add 10px right margin to create space between input and button */
+}
+
+.add-button {
+    padding: 8px 16px;
+    /* Add 8px top and bottom padding, and 16px left and right padding */
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    /* Set the text color to white */
+    border: none;
+    /* Remove the border */
+    border-radius: 5px;
+    /* Apply a 5px border radius for rounded corners */
+    cursor: pointer;
+    /* Change the cursor to a pointer on hover */
+}
+
+.buttons-container {
+    display: flex;
+    /* Use flexbox layout for the container */
+    justify-content: left;
+    /* left align the buttons horizontally */
+    margin-bottom: 10px;
+    /* Add 10px bottom margin to create space between buttons and list */
+}
+
+.clear-button,
+.remove-button,
+.remove-completed-button {
+    padding: 8px 16px;
+    /* Add 8px top and bottom padding, and 16px left and right padding */
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    /* Set the text color to white */
+    border: none;
+    /* Remove the border */
+    border-radius: 5px;
+    /* Apply a 5px border radius for rounded corners */
+    cursor: pointer;
+    /* Change the cursor to a pointer on hover */
+    margin-right: 10px;
+    /* Add 10px right margin to create space between buttons */
+}
+
+.todos-list {
+    list-style-type: none;
+    /* Remove the bullet points from the list */
+    padding: 0;
+    /* Remove the default padding from the list */
+}
+
+.todos-list li {
+    margin-bottom: 5px;
+    /* Add 5px bottom margin to create space between list items */
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    /* Use flexbox layout for container */
+    /* Align items vertically in the center */
+    /* Add 10px right margin for spacing */
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+    /* Add 5px right margin for spacing between checkbox and label */
+}
+
+.checkbox-container label {
+    font-size: 17px;
+    /* Set font size to 17 pixels */
+}
+
+.show-urgent-button {
+    padding: 8px 16px;
+    /* Add 8px top and bottom padding, 16px left and right padding */
+    font-size: 16px;
+    /* Set font size to 16 pixels */
+    background-color: orange;
+    /* Set background color to orange */
+    color: white;
+    /* Set text color to white */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Apply 5px border radius for rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    margin-right: 10px;
+    /* Add 10px right margin for spacing */
+
+
+
+
+
+
+
+
+}
+
+.search-container {
+    background-color: #f8f8f8;
+    /* Set background color to #f8f8f8 */
+    padding: 10px;
+    /* Add 10px padding around container */
+    border-radius: 5px;
+    /* Apply 5px border radius for rounded corners */
+    margin-bottom: 10px;
+    /* Add 10px bottom margin for spacing */
+}
+
+.search-label {
+    font-weight: bold;
+    /* Set font weight to bold */
+    margin-right: 10px;
+    /* Add 10px right margin for spacing */
+}
+
+.search-input {
+    padding: 8px;
+    /* Add 8px padding around input field */
+    font-size: 16px;
+    /* Set font size to 16 pixels */
+    border: 1px solid #ccc;
+    /* Add 1px solid border with color #ccc */
+    border-radius: 5px;
+    /* Apply 5px border radius for rounded corners */
+}
